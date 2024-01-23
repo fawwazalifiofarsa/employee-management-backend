@@ -1,8 +1,8 @@
 import * as dotenv from 'dotenv';
 import cors from 'cors';
 import express from 'express';
-import { connectToDatabase } from './database';
-import { employeeRouter } from './employee.routes';
+import { connectToDatabase } from './src/database';
+import { employeeRouter } from './src/employee.routes';
 
 dotenv.config()
 

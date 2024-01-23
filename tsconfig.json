@@ -2,11 +2,10 @@
     "compilerOptions": {
         "module": "CommonJS",
         "esModuleInterop": true,
-        "target": "ES6",
+        "target": "ESNext",
         "noImplicitAny": true,
         "moduleResolution": "node",
         "sourceMap": true,
-        "rootDir": ".",
         "outDir": "./dist",
         "baseUrl": ".",
         "allowJs": true,
@@ -14,5 +13,5 @@
             "*": ["node_modules/*"]
         }
     },
-    "include": ["src/**/*", "server.ts"]
+    "include": ["src/**/*", "api/**/*"]
 }
